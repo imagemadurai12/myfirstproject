@@ -4,16 +4,274 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Academy - Home</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="shortcut icon" href="./images/icon/eacademy-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <h1>Welcomt to Git class</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti blanditiis quos magnam harum, et
-        ducimus expedita illo, itaque architecto excepturi dolorem aperiam consequatur natus! Impedit nesciunt
-        blanditiis facere suscipit?</p>
-    <button class="btn" type="submit">Readmore</button>
+
+    <!-- Header -->
+    <header>
+        <div class="section-wrapper">
+            <nav>
+                <label for="check-btn" class="check-btn"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" name="" id="check-btn">
+
+                <h1>E-Academy</h1>
+
+                <ul>
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./index.html#about-section">About</a></li>
+                    <li><a href="./index.html#courses-section">Courses</a></li>
+                    <li><a href="./index.html#blog-section">Blog</a></li>
+                    <li><a href="./index.html#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="banner-section">
+                <h1>Education Free Online Training Courses
+                </h1>
+                <p>Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
+                <div class="button-container">
+                    <button class="btn-primary">Get Started</button>
+                </div>
+            </section>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- About us -->
+        <section class="about-section" id="about-section">
+            <div class="section-wrapper">
+                <div class="about-left-container">
+
+                    <div class="heading-container">
+                        <h1>About us</h1>
+                        <div class="heading-liner"></div>
+                    </div>
+
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</p>
+
+                    <div class="button-container">
+                        <button class="btn-secondary">Read More</button>
+                    </div>
+
+                </div>
+                <div class="about-right-container">
+                    <div class="about-image-holder">
+                        <img src="./images/about-img.png" alt="E-Academy About">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Explore courses -->
+        <section class="explore-courses-section" id="courses-section">
+            <div class="section-wrapper">
+
+                <div class="e-courses-heading-container">
+                    <h1>Explore Courses</h1>
+                    <p>do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+
+                <div class="e-courses-carousel-container">
+
+                    <div class="indicator indicator-prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="indicator indicator-next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card card-one">
+                            <div class="card-image-container">
+                                <img src="./images/card-one.png" alt="">
+                            </div>
+                            <div class="card-content-container">
+                                <h1>Introduction to CSS</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reiciendis inventore
+                                    temporibus voluptas minus.</p>
+                            </div>
+                        </div>
+                        <div class="card card-two">
+                            <div class="card-image-container">
+                                <img src="./images/card-two.png" alt="">
+                            </div>
+                            <div class="card-content-container">
+                                <h1>The Complete Web Development</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reiciendis inventore
+                                    temporibus voluptas minus.</p>
+                            </div>
+                        </div>
+                        <div class="card card-three">
+                            <div class="card-image-container">
+                                <img src="./images/card-three.png" alt="">
+                            </div>
+                            <div class="card-content-container">
+                                <h1>PHP Tips, Tricks, and Techniques</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reiciendis inventore
+                                    temporibus voluptas minus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Ourblog section -->
+        <section class="our-blog" id="blog-section">
+            <div class="section-wrapper">
+                <div class="our-blog-heading-container">
+                    <h1>Our Blog</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    </p>
+                </div>
+                <div class="our-blog-content-container">
+                    <div class="our-blog-content-sub-container">
+                        <div class="our-blog-content-left-container">
+                            <h1>Our blog</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae laboriosam distinctio
+                                accusantium sint iure adipisci ea quidem aut libero deleniti.</p>
+                            <div class="button-container">
+                                <button class="button btn-primary">Read More</button>
+                            </div>
+                        </div>
+                        <div class="our-blog-content-right-container">
+                            <div class="our-blog-image-container">
+                                <img src="./images/blog-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact us -->
+        <section class="contact-us" id="contact-section">
+            <div class="section-wrapper">
+                <div class="contact-us-heading-container">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    </p>
+                </div>
+                <div class="contact-us-form-container">
+                    <div class="contact-us-form-sub-container">
+                        <div class="contact-us-form-left-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0131442871343!2d78.14627441018871!3d9.932862874146204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c553a9fb384d%3A0xcc60d2791e24607e!2sIMAGE%20CREATIVE%20EDUCATION-2D%263D%20Animation%7CVFX%7CDigital%20Video%20Production%20Course%20in%20Madurai%20%7C%20UI%20UX%20Course%20%7C%20Fullstack%20Course!5e0!3m2!1sen!2sin!4v1731042512461!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="contact-us-form-right-container">
+                            <form action="" method="POST">
+                                <input type="text" name="userName" id="" placeholder="Name" required>
+
+                                <input type="tel" name="userNumber" id="" placeholder="Phone Number" required>
+
+                                <input type="email" name="userEmail" id="" placeholder="Email" required>
+
+                                <textarea name="userMessage" id="" placeholder="Message" required></textarea>
+
+                                <input type="submit" value="SEND" name="submit" class="btn-primary">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="section-wrapper">
+            <div class="main-link-containers">
+                <div class="link-container link-container-one">
+                    <h1>About</h1>
+                    <div class="info-container">
+                        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation u</p>
+                    </div>
+                </div>
+                <div class="link-container link-container-two">
+                    <h1>Menu</h1>
+                    <div class="info-container">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-container link-container-three">
+                    <h1>Useful Link</h1>
+                    <div class="info-container">
+                        <ul>
+                            <li><a href="#">Section 1</a></li>
+                            <li><a href="#">Section 2</a></li>
+                            <li><a href="#">Section 3</a></li>
+                            <li><a href="#">Section 4</a></li>
+                            <li><a href="#">Section 5</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-container link-container-four">
+                    <h1>Contact Us</h1>
+                    <div class="info-container">
+                        <ul>
+                            <li><a href="https://www.google.com/maps/place/IMAGE+CREATIVE+EDUCATION-2D%263D+Animation%7CVFX%7CDigital+Video+Production+Course+in+Madurai+%7C+UI+UX+Course+%7C+Fullstack+Course/@9.9328629,78.1462744,17z/data=!3m1!4b1!4m6!3m5!1s0x3b00c553a9fb384d:0xcc60d2791e24607e!8m2!3d9.9328576!4d78.1488547!16s%2Fg%2F11nfvmsg2h?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D"
+                                    target="_blank">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Address : Image Creative Education - Madurai</span>
+                                </a></li>
+                            <li><a href="tel:+91 9944886633">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>Phone : +91 12345 67890 </span>
+                                </a></li>
+                            <li><a href="mailto:webfacultyone@gmail.com">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>Email : imagemadurai@gmail.com </span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-rights-container">
+                <p>
+                    2024 All Rights Reserved by
+                    <a href="https://maps.app.goo.gl/yfnfgPa8jfDk6Adg7" target="_blank">Image Creative Education -
+                        Madurai</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

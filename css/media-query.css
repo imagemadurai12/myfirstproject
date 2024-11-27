@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    height: 500px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 90%;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: lightgray;
+    border-radius: 5px;
+}
+
+header .wrapper nav {
+    height: 10%;
+    width: 100%;
+    /* background-color: lightgray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+header .wrapper {
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+header .wrapper .banner-section {
+    height: 90%;
+    width: 100%;
+    /* background-color: lavenderblush; */
+    display: flex;
+}
+
+header .wrapper .banner-section .banner-left-container,
+header .wrapper .banner-section .banner-right-container {
+    height: 100%;
+    width: 50%;
+}
+
+header .wrapper .banner-section .banner-left-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+header .wrapper .banner-section .banner-left-container p {
+    width: 80%;
+}
+
+header .banner-section .banner-right-container {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner-section .banner-right-container .banner-image-wrapper {
+    height: 90%;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+header .banner-section .banner-right-container .banner-image-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    position: absolute;
+}
+
+header .banner-section .banner-right-container .banner-image-wrapper .blend-mode-layer {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+
+@media only screen and (max-width:1024px) {
+    header {
+        background-color: lightgreen;
+    }
+}
+
+@media only screen and (max-width:825px) {
+    header .banner-section .banner-right-container .banner-image-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+
+    header .banner-section .banner-right-container .banner-image-wrapper .banner-image-wrapper {
+        height: 80%;
+        width: 80%;
+    }
+
+    header .banner-section .banner-right-container .banner-image-wrapper .blend-mode-layer {
+        height: 80%;
+        width: 80%;
+    }
+
+    header .banner-section .banner-right-container .banner-image-wrapper img {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    header {
+        height: auto;
+        background-color: lightgreen;
+    }
+
+    header .wrapper .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    header .wrapper .banner-section .banner-left-container {
+        height: 300px;
+        width: 100%;
+        background-color: rebeccapurple;
+    }
+
+
+    header .banner-section .banner-right-container .banner-image-wrapper .blend-mode-layer {
+        position: static;
+    }
+
+    header .banner-section .banner-right-container {
+        height: 300px;
+        width: 100%;
+    }
+
+    header .banner-section .banner-right-container .banner-image-wrapper img {
+        position: static;
+        height: 100%;
+        width: 100%;
+    }
+}
